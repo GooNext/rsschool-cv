@@ -1,1 +1,1 @@
-https://GooNext.github.io/rsschool-cv/cv
+https://GooNext.github.io/rsschool-cv/
