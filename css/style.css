@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #343235;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #E6E6E8;
+    box-shadow: -20px 20px 45px 20px rgba(0, 0, 0, 0.582);
+    display: flex;
+}
+
+.left__part {
+    background: #333237;
+}
+
+.section__title {
+    color: #0096DE;
+    margin-bottom: 15px; 
+}
+.left__part .contacts ul {
+    list-style-type: none;
+}
+.left__part .contacts ul li {
+    color: #E6E6E8;
+    padding: 6px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.left__part .contacts ul li i {
+    font-size: 16px;
+    background: #0096DE;
+    padding: 5px;
+    color: #333237;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    box-shadow: -5px 5px 6px rgba(0, 0, 0, 0.137);
+}
+.left__part .contacts ul li a {
+    color: #E6E6E8;
+    text-decoration: none;
+    margin-left: 18px;
+}
+.left__part .section__div {
+    padding: 15px;
+    border-bottom: 1px solid #E6E6E8;
+}
+
+.progress-container {
+    max-width: 120px;
+    width: 100%;
+    margin-left: 18px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.507);
+}
+
+.progress {
+    background: #0096DE;
+}
+.skill {
+    margin-bottom: 20px;
+}
+
+.skills div {
+    display: flex;
+}
+
+.skills p {
+    color: #E6E6E8;
+    font-size: 14px;
+    width: 70px;
+}
+
+.right__part {
+    padding: 50px 30px;
+}
+
+.right__part ul {
+    list-style-type: none;
+}
+.right__part ul li {
+    margin: 35px 0;
+    display: flex;
+    flex-direction: column;
+}
+.right__part ul li a {
+    color: #0096DE;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.right__part ul li img {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.right__part h4 {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #242424;
+}
+
+.right__part h1{
+    font-weight: 100;
+    font-size: 32px;
+    color: #242424;
+}
+
+.right__part .description {
+    color: #0096DE;
+    font-weight: 600;
+    margin: 10px 0 40px 0;
+}
+
+.right__part h1 span {
+    font-weight: 600;
+}
+
+.right__part .about, .experience, .education, .english p {
+    line-height: 1.7;
+}
