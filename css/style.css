@@ -59,3 +59,31 @@ main {
     padding: 15px;
     border-bottom: 1px solid #E6E6E8;
 }
+
+.progress-container {
+    max-width: 120px;
+    width: 100%;
+    margin-left: 18px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.507);
+}
+
+.progress {
+    background: #0096DE;
+}
+.skills {
+
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skills div {
+    display: flex;
+}
+
+.skills p {
+    color: #E6E6E8;
+    font-size: 14px;
+    width: 70px;
+}
